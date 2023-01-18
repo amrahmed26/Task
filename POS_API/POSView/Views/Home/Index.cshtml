@@ -1,8 +1,148 @@
-﻿@{
+﻿@model POSView.Models.ItemsModel
+@{
     ViewData["Title"] = "Home Page";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<div class="row">
+    <div class="col-md-4">
+
+            <label asp-for="CategoryId"   class="control-label">Category</label>
+            <select  class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories,"Id","Name"))">
+                <option></option>
+
+            </select>
+                 <label asp-for="ProductId"   class="control-label">Product</label>
+            <select  class="form-control" asp-for="ProductId" asp-items="@(new SelectList(Model.Products,"Id","Name"))">
+                <option></option>
+
+            </select>
+        <label  class="control-label">Quantity</label>
+
+        <input class="form-control" type="number" id="QTY" />
+             <div class="form-group">
+               @* <input type="submit" value="Create" class="btn btn-primary" />*@
+            <button class="btn btn-primary" onclick=" PostProductToInvoice()">Add To Invoice</button>
+            </div>
+            </div>
+    <div class="col-md-8">
+        <button class="btn btn-primary" onclick=" ShowInvoice()">Show Invoice</button>
+        <div id="invoice">
+        </div>
+        <p id="price"></p>
+
+
+    </div>
+           
+    
+    </div>
+   
+
+@section scripts{
+    <script>
+        $(document).ready(function(){
+            $('#CategoryId').on('change',function(){
+                var categoryId=$(this).val();
+                var pro=$('#ProductId');
+                pro.empty();
+                if(categoryId!=''){
+
+                
+                $.ajax({
+                        url: 'Home/GetProducts?CategoryId=' + categoryId,
+                    method:'Get',
+                    success:function(results){
+                        console.log(results);
+                        $.each(results,function(i,result){
+                            pro.append($('<option></option>').attr('value', result.id).text(result.name));
+
+                        });
+                    },
+                    error:function(){
+                        alert("Error");
+                    }
+                });
+                }
+
+            });
+
+        });
+        function PostProductToInvoice(){
+            var invoiceId=1;
+            var productId = $('#ProductId').val();
+            var qTY = $('#QTY').val();
+            var totalPrice=0;
+            var obj=new Object();
+            obj.invoiceId=invoiceId;
+            obj.productId=productId;
+            obj.totalPrice=totalPrice;
+            obj.qTY=qTY;
+            $.ajax({
+                url: 'Home/PostToInvoice',
+               type: 'POST',
+               data:obj,
+               success:function(result){
+                    Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Added Successfully',
+                    showConfirmButton: false,
+                    timer: 2000
+                })
+
+               },
+               error:function(error){
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'error',
+                        title: 'Can not Add item twice',
+                        showConfirmButton: false,
+                        timer: 2000
+                    })
+                   
+               }
+
+
+
+
+
+            });
+        }
+        function ShowInvoice(){
+            $.ajax({
+                url: 'Home/GetInvoice',
+                type:'GET',
+                success:function(results){
+                    var table='';
+                    var price=0;
+                    table += '<table class="table table-striped table-bordered">';
+                        table += '<tr> <th>invoicetId</th> <th>productName</th> <th>qty</th> <th>Price</th> </tr>';
+                   $.each(results,function(result,i){
+
+                        table += '<tr>';
+                        table += '<td>' + i.invoicetId + '</td>';
+                        table += '<td>' + i.productName + '</td>';
+                        table += '<td>' + i.qty + '</td>';
+                        table+= '<td>' + i.totalPrice + '</td>';
+                      
+                      
+                        price=i.totalPrice+price;
+                   });  
+                   table+='</tr>'; 
+                   table+='</table>';
+                   console.log(price);
+                    $('#invoice').html(table);
+                    document.getElementById("price").innerHTML = "Total Price Of Invoice = " + price;
+                },
+           
+                error:function(error){
+                    alert("e");
+
+                }
+
+            });
+        }
+
+    </script>
+}

@@ -1,6 +1,7 @@
 ﻿using POS_API.DomainModels;
 using POS_API.ViewModels;
 using POS_API.Dapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace POS_API.Services
 {
@@ -29,9 +30,22 @@ namespace POS_API.Services
 
         public async Task<bool> PostProductsToInvoice(ProductInvoice productInvoice)
         {
-            await unitOfWork.ProductInvoices.AddAsync(productInvoice);
-           var res= await unitOfWork.SaveChangesAsync();    
-            return res> 0; 
+            var product=await unitOfWork.ProductInvoices.FirstOrDefaultAsync(x=>x.ProductId==productInvoice.ProductId);
+            if(product is not null)
+            {
+                return false;
+            }
+            else
+            {
+                var productprice = await unitOfWork.Products.Where(x => x.Id == productInvoice.ProductId).Select(x => x.Price).SingleOrDefaultAsync();
+                productInvoice.TotalPrice = productprice * productInvoice.QTY;
+
+                await unitOfWork.ProductInvoices.AddAsync(productInvoice);
+               var res= await unitOfWork.SaveChangesAsync();    
+                return res> 0; 
+
+            }
+            
         }
     }
 }

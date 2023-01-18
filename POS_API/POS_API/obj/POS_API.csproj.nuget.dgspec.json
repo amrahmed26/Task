@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\.Net projects\\POS_API\\POS_API\\POS_API.csproj": {}
+    "F:\\.Net projects\\Github\\Task\\POS_API\\POS_API\\POS_API.csproj": {}
   },
   "projects": {
-    "F:\\.Net projects\\POS_API\\POS_API\\POS_API.csproj": {
+    "F:\\.Net projects\\Github\\Task\\POS_API\\POS_API\\POS_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\.Net projects\\POS_API\\POS_API\\POS_API.csproj",
+        "projectUniqueName": "F:\\.Net projects\\Github\\Task\\POS_API\\POS_API\\POS_API.csproj",
         "projectName": "POS_API",
-        "projectPath": "F:\\.Net projects\\POS_API\\POS_API\\POS_API.csproj",
+        "projectPath": "F:\\.Net projects\\Github\\Task\\POS_API\\POS_API\\POS_API.csproj",
         "packagesPath": "C:\\Users\\eg\\.nuget\\packages\\",
-        "outputPath": "F:\\.Net projects\\POS_API\\POS_API\\obj\\",
+        "outputPath": "F:\\.Net projects\\Github\\Task\\POS_API\\POS_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

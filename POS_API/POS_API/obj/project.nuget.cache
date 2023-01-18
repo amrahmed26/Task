@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oz1F2NUCKlXKighPuvjj2nslSvW9vXaglf61aCmQ0joSAGUpUTe2t1AZT7sLUStKRs9C+dXs811pq4ToKCom9g==",
+  "dgSpecHash": "Q0X4SAsqkfwp6zYeYWX8fkzpz87ZpBl1xkUtIRSLAc9+SlOnwU9rDmrbyDxt4FeUM5pplmjJ6s592WWW0G7z1Q==",
   "success": true,
-  "projectFilePath": "F:\\.Net projects\\POS_API\\POS_API\\POS_API.csproj",
+  "projectFilePath": "F:\\.Net projects\\Github\\Task\\POS_API\\POS_API\\POS_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eg\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\eg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

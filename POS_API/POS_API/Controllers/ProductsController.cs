@@ -21,7 +21,7 @@ namespace POS_API.Controllers
            await productService.GetProducts();
         [HttpGet("GetProductsByCategory/{CategoryId}")]
         public async Task<IEnumerable<Product>> GetProductsByCategory( [FromRoute]int CategoryId) =>
-           await productService.GetProducts();
+           await productService.GetProductsbyCategory(CategoryId);
         
        
 

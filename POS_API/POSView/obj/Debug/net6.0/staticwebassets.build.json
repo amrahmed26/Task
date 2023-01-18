@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "Hash": "ZD9QCYXRB7HnwUOeuRsueXXqhpG+yG0JT/C5AV8ZKOE=",
+  "Hash": "nElwoD/2NpHL/uitDAoR8hnvXKotmjP7DONAH+y5ITU=",
   "Source": "POSView",
   "BasePath": "_content/POSView",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POS_API\\POS_API.csproj",
+      "Version": 2,
+      "Source": "POS_API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "POSView\\wwwroot",
       "Source": "POSView",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\POSView.styles.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\POSView.styles.css",
       "SourceId": "POSView",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/POSView",
       "RelativePath": "POSView.styles.css",
       "AssetKind": "All",
@@ -31,13 +43,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\.Net projects\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\POSView.styles.css"
+      "OriginalItemSpec": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\bundle\\POSView.styles.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\POSView.bundle.scp.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\POSView.bundle.scp.css",
       "SourceId": "POSView",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/POSView",
       "RelativePath": "POSView.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +60,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\.Net projects\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\POSView.bundle.scp.css"
+      "OriginalItemSpec": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\POSView.bundle.scp.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\css\\site.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\css\\site.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\favicon.ico",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\favicon.ico",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +97,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\js\\site.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\js\\site.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +114,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -136,10 +148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -153,10 +165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -170,10 +182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -187,10 +199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +471,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +488,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +505,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +607,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +624,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +641,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +675,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +692,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +709,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +743,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +811,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +828,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +845,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +862,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -884,10 +896,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -901,10 +913,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -918,10 +930,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -935,10 +947,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -952,10 +964,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -969,10 +981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -986,10 +998,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1003,10 +1015,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1020,10 +1032,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1037,10 +1049,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1054,10 +1066,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "POSView",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\.Net projects\\POS_API\\POSView\\wwwroot\\",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
       "BasePath": "_content/POSView",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1069,6 +1081,108 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.js",
+      "SourceId": "POSView",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
+      "BasePath": "_content/POSView",
+      "RelativePath": "limonte-sweetalert2/sweetalert2.all.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\limonte-sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.min.js",
+      "SourceId": "POSView",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
+      "BasePath": "_content/POSView",
+      "RelativePath": "limonte-sweetalert2/sweetalert2.all.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\limonte-sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\limonte-sweetalert2\\sweetalert2.css",
+      "SourceId": "POSView",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
+      "BasePath": "_content/POSView",
+      "RelativePath": "limonte-sweetalert2/sweetalert2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\limonte-sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\limonte-sweetalert2\\sweetalert2.js",
+      "SourceId": "POSView",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
+      "BasePath": "_content/POSView",
+      "RelativePath": "limonte-sweetalert2/sweetalert2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\limonte-sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.css",
+      "SourceId": "POSView",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
+      "BasePath": "_content/POSView",
+      "RelativePath": "limonte-sweetalert2/sweetalert2.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\limonte-sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Identity": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.js",
+      "SourceId": "POSView",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\.Net projects\\Github\\Task\\POS_API\\POSView\\wwwroot\\",
+      "BasePath": "_content/POSView",
+      "RelativePath": "limonte-sweetalert2/sweetalert2.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\limonte-sweetalert2\\sweetalert2.min.js"
     }
   ]
 }
