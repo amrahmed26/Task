@@ -38,5 +38,12 @@ namespace POS_API.Controllers
             var res=await invoiceService.PostProductsToInvoice(productInvoice);
             return res ? Created(nameof(PostProductsToInvoice), productInvoice) : BadRequest();
         }
+        [HttpPost("ConfirmInvoice/{InvoiceId}")]
+        public async Task<ActionResult> ConfirmInvoice([FromRoute]int InvoiceId)
+        {
+            var res = await invoiceService.ConfirmInvoice(InvoiceId);
+            return res ? Ok() : BadRequest();
+
+        }
     }
 }

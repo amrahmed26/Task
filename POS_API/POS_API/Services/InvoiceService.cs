@@ -33,7 +33,12 @@ namespace POS_API.Services
             var product=await unitOfWork.ProductInvoices.FirstOrDefaultAsync(x=>x.ProductId==productInvoice.ProductId);
             if(product is not null)
             {
-                return false;
+                var productprice = await unitOfWork.Products.Where(x => x.Id == productInvoice.ProductId).Select(x => x.Price).SingleOrDefaultAsync();
+                product.QTY += 1;
+                product.TotalPrice = productprice * product.QTY;
+               await unitOfWork.SaveChangesAsync();
+
+                return true;
             }
             else
             {
@@ -46,6 +51,14 @@ namespace POS_API.Services
 
             }
             
+        }
+        public async Task<bool> ConfirmInvoice(int InvoiceId)
+        {
+            Order order = new();
+            order.InvoiceId = InvoiceId;
+           await unitOfWork.Orders.AddAsync(order);
+            var res= await unitOfWork.SaveChangesAsync();
+            return res == 1;
         }
     }
 }

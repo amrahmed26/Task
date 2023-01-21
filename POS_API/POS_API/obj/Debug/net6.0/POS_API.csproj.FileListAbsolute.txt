@@ -114,14 +114,11 @@ F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win-arm\n
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
@@ -146,3 +143,12 @@ F:\.Net projects\Github\Task\POS_API\POS_API\obj\Debug\net6.0\refint\POS_API.dll
 F:\.Net projects\Github\Task\POS_API\POS_API\obj\Debug\net6.0\POS_API.pdb
 F:\.Net projects\Github\Task\POS_API\POS_API\obj\Debug\net6.0\POS_API.genruntimeconfig.cache
 F:\.Net projects\Github\Task\POS_API\POS_API\obj\Debug\net6.0\ref\POS_API.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\EPPlus.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\EPPlus.Interfaces.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\.Net projects\Github\Task\POS_API\POS_API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll

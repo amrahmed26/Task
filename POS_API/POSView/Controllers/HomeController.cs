@@ -22,14 +22,15 @@ namespace POSView.Controllers
             client.BaseAddress = new Uri("http://localhost:5259/api/categories");
             var res=  await client.GetAsync(client.BaseAddress);
             ItemsModel model = new ();
-            if (res.IsSuccessStatusCode)
-            {
+            model.Categories = new List<Category>();
+            //if (res.IsSuccessStatusCode)
+            //{
 
-               model.Categories = JsonConvert.DeserializeObject<List<Category>>(await res.Content.ReadAsStringAsync());
+            //   model.Categories = JsonConvert.DeserializeObject<List<Category>>(await res.Content.ReadAsStringAsync());
 
-            }
+            //}
             
-            return View(model);
+            return View();
         }
         public async Task< List<Product>> GetProducts(int CategoryId)
         {

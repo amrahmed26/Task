@@ -56,6 +56,27 @@ namespace POS_API.Migrations
                     b.ToTable("Invoices");
                 });
 
+            modelBuilder.Entity("POS_API.DomainModels.Order", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("InvoiceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderId");
+
+                    b.HasIndex("InvoiceId");
+
+                    b.ToTable("Orders");
+                });
+
             modelBuilder.Entity("POS_API.DomainModels.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -90,23 +111,29 @@ namespace POS_API.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int>("InvoicetId")
-                        .HasColumnType("int");
-
                     b.Property<int>("InvoiceId")
                         .HasColumnType("int");
 
                     b.Property<int>("QTY")
                         .HasColumnType("int");
 
-                    b.Property<float>("TotalPrice")
+                    b.Property<float?>("TotalPrice")
                         .HasColumnType("real");
 
-                    b.HasKey("ProductId", "InvoicetId");
-
-                    b.HasIndex("InvoiceId");
+                    b.HasKey("ProductId", "InvoiceId");
 
                     b.ToTable("ProductInvoices");
+                });
+
+            modelBuilder.Entity("POS_API.DomainModels.Order", b =>
+                {
+                    b.HasOne("POS_API.DomainModels.Invoice", "Invoice")
+                        .WithMany()
+                        .HasForeignKey("InvoiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Invoice");
                 });
 
             modelBuilder.Entity("POS_API.DomainModels.Product", b =>
@@ -118,25 +145,6 @@ namespace POS_API.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("POS_API.DomainModels.ProductInvoice", b =>
-                {
-                    b.HasOne("POS_API.DomainModels.Invoice", "Invoice")
-                        .WithMany()
-                        .HasForeignKey("InvoiceId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("POS_API.DomainModels.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Invoice");
-
-                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }

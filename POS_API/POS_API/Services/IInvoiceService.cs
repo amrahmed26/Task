@@ -8,5 +8,6 @@ namespace POS_API.Services
         Task<HashSet< InvoiceViewModel>> GetInvoiceView(int InvoiceId);
         Task<bool> PostInvoice(Invoice invoice);
         Task<bool> PostProductsToInvoice(ProductInvoice productInvoice);
+        Task<bool> ConfirmInvoice(int InvoiceId);
     }
 }

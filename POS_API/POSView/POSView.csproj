@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\vendors\bootstrap\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\vendors\bootstrap\.github\ISSUE_TEMPLATE\bug.md" />
+    <None Include="wwwroot\vendors\bootstrap\.github\ISSUE_TEMPLATE\bug_report.md" />
+    <None Include="wwwroot\vendors\bootstrap\.github\ISSUE_TEMPLATE\feature.md" />
+    <None Include="wwwroot\vendors\bootstrap\.github\ISSUE_TEMPLATE\feature_request.md" />
+    <None Include="wwwroot\vendors\bootstrap\.github\SUPPORT.md" />
+    <None Include="wwwroot\vendors\jquery-validation-unobtrusive\.vsts-pipelines\builds\ci-public.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
